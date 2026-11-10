@@ -1,0 +1,111 @@
+{
+  "test_set": {
+    "blocks": 115013,
+    "failures": 3368
+  },
+  "threshold": 0.5,
+  "models": {
+    "Logistic Regression": {
+      "accuracy": 0.9988609983219289,
+      "precision": 0.9633552819925565,
+      "recall": 0.9991092636579573,
+      "f1": 0.9809065733858038,
+      "pr_auc": 0.9992242563825807,
+      "missed_failures": 3,
+      "false_alarms": 128
+    },
+    "Random Forest": {
+      "accuracy": 0.9999391373149122,
+      "precision": 0.9985167606051617,
+      "recall": 0.9994061757719715,
+      "f1": 0.9989612702181333,
+      "pr_auc": 0.9996663748263133,
+      "missed_failures": 2,
+      "false_alarms": 5
+    }
+  },
+  "data_overlap": {
+    "distinct_event_vectors": 589,
+    "test_rows_seen_in_train": 0.9996087398815786,
+    "unseen_test_blocks": 45,
+    "unseen_test_failures": 34
+  },
+  "unseen_pattern_models": {
+    "Logistic Regression": {
+      "f1": 0.9411764705882353,
+      "recall": 0.9411764705882353,
+      "precision": 0.9411764705882353,
+      "missed_failures": 2,
+      "false_alarms": 2
+    },
+    "Random Forest": {
+      "f1": 0.9552238805970149,
+      "recall": 0.9411764705882353,
+      "precision": 0.9696969696969697,
+      "missed_failures": 2,
+      "false_alarms": 1
+    }
+  },
+  "top_events": [
+    {
+      "event": "E20",
+      "template": "Unexpected error trying to delete block \u2026 BlockInfo not found in volumeMap",
+      "impurity": 0.3342344169410174,
+      "permutation": 0.2635990502623201
+    },
+    {
+      "event": "E26",
+      "template": "BLOCK* NameSystem \u2026 addStoredBlock: blockMap updated: \u2026 is added to \u2026 size",
+      "impurity": 0.14146260550937031,
+      "permutation": 0.16790211327811472
+    },
+    {
+      "event": "E25",
+      "template": "BLOCK* ask \u2026 to replicate \u2026 to",
+      "impurity": 0.025019811290574682,
+      "permutation": 0.08320761635609722
+    },
+    {
+      "event": "E27",
+      "template": "BLOCK* NameSystem \u2026 addStoredBlock: Redundant addStoredBlock request received for \u2026 on \u2026 size",
+      "impurity": 0.0800273460927075,
+      "permutation": 0.05891499122378685
+    },
+    {
+      "event": "E21",
+      "template": "Deleting block \u2026 file",
+      "impurity": 0.037497650979588126,
+      "permutation": 0.03528870010085703
+    },
+    {
+      "event": "E13",
+      "template": "Receiving empty packet for block",
+      "impurity": 0.040895152095842734,
+      "permutation": 0.031104354989227766
+    },
+    {
+      "event": "E4",
+      "template": "Got exception while serving \u2026 to",
+      "impurity": 0.002129243011867751,
+      "permutation": 0.007158016965367176
+    },
+    {
+      "event": "E3",
+      "template": "Served block \u2026 to",
+      "impurity": 0.002574140018652282,
+      "permutation": 0.006510187706401105
+    },
+    {
+      "event": "E23",
+      "template": "BLOCK* NameSystem \u2026 delete: \u2026 is added to invalidSet of",
+      "impurity": 0.01405014338709542,
+      "permutation": 0.0014797141470449526
+    },
+    {
+      "event": "E18",
+      "template": "Starting thread to transfer block \u2026 to",
+      "impurity": 0.030534949817579458,
+      "permutation": 0.0002971764078320005
+    }
+  ]
+}

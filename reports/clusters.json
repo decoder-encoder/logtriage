@@ -1,0 +1,237 @@
+{
+  "k": 10,
+  "silhouette": {
+    "3": 0.6873481192341802,
+    "4": 0.6265376791557655,
+    "5": 0.6603804179496258,
+    "6": 0.6660618673748346,
+    "7": 0.6902004195623926,
+    "8": 0.7092530256573509,
+    "9": 0.747090815189137,
+    "10": 0.7675840822897817
+  },
+  "ari_vs_type": 0.774316103798541,
+  "nmi_vs_type": 0.7931847392335934,
+  "clusters": [
+    {
+      "cluster": 2,
+      "size": 3499,
+      "share": 0.20780377717068535,
+      "top_events": [
+        {
+          "event": "E23",
+          "template": "BLOCK* NameSystem \u2026 delete: \u2026 is added to invalidSet of"
+        },
+        {
+          "event": "E9",
+          "template": "Received block \u2026 of size \u2026 from"
+        },
+        {
+          "event": "E11",
+          "template": "PacketResponder \u2026 for block \u2026 terminating"
+        }
+      ],
+      "dominant_type": 5,
+      "dominant_type_share": 0.9611317519291226,
+      "n_types": 7
+    },
+    {
+      "cluster": 1,
+      "size": 3258,
+      "share": 0.1934909134101437,
+      "top_events": [
+        {
+          "event": "E7",
+          "template": "writeBlock \u2026 received exception"
+        },
+        {
+          "event": "E5",
+          "template": "Receiving block \u2026 src: \u2026 dest:"
+        },
+        {
+          "event": "E22",
+          "template": "BLOCK* NameSystem \u2026 allocateBlock:"
+        }
+      ],
+      "dominant_type": 31,
+      "dominant_type_share": 0.9898710865561694,
+      "n_types": 5
+    },
+    {
+      "cluster": 3,
+      "size": 2950,
+      "share": 0.17519895474521915,
+      "top_events": [
+        {
+          "event": "E22",
+          "template": "BLOCK* NameSystem \u2026 allocateBlock:"
+        },
+        {
+          "event": "E5",
+          "template": "Receiving block \u2026 src: \u2026 dest:"
+        },
+        {
+          "event": "E19",
+          "template": "Reopen Block"
+        }
+      ],
+      "dominant_type": 3,
+      "dominant_type_share": 1.0,
+      "n_types": 1
+    },
+    {
+      "cluster": 5,
+      "size": 2201,
+      "share": 0.13071623708278893,
+      "top_events": [
+        {
+          "event": "E26",
+          "template": "BLOCK* NameSystem \u2026 addStoredBlock: blockMap updated: \u2026"
+        },
+        {
+          "event": "E21",
+          "template": "Deleting block \u2026 file"
+        },
+        {
+          "event": "E6",
+          "template": "Received block \u2026 src: \u2026 dest: \u2026 of size"
+        }
+      ],
+      "dominant_type": 0,
+      "dominant_type_share": 0.7178555202180827,
+      "n_types": 17
+    },
+    {
+      "cluster": 6,
+      "size": 1241,
+      "share": 0.07370233994536168,
+      "top_events": [
+        {
+          "event": "E4",
+          "template": "Got exception while serving \u2026 to"
+        },
+        {
+          "event": "E2",
+          "template": "Verification succeeded for"
+        },
+        {
+          "event": "E21",
+          "template": "Deleting block \u2026 file"
+        }
+      ],
+      "dominant_type": 21,
+      "dominant_type_share": 0.44560838033843675,
+      "n_types": 11
+    },
+    {
+      "cluster": 4,
+      "size": 1039,
+      "share": 0.06170566575602803,
+      "top_events": [
+        {
+          "event": "E3",
+          "template": "Served block \u2026 to"
+        },
+        {
+          "event": "E4",
+          "template": "Got exception while serving \u2026 to"
+        },
+        {
+          "event": "E28",
+          "template": "BLOCK* NameSystem \u2026 addStoredBlock: addStoredBlock req\u2026"
+        }
+      ],
+      "dominant_type": 4,
+      "dominant_type_share": 0.45332050048123196,
+      "n_types": 7
+    },
+    {
+      "cluster": 9,
+      "size": 911,
+      "share": 0.054103812804371064,
+      "top_events": [
+        {
+          "event": "E3",
+          "template": "Served block \u2026 to"
+        },
+        {
+          "event": "E26",
+          "template": "BLOCK* NameSystem \u2026 addStoredBlock: blockMap updated: \u2026"
+        },
+        {
+          "event": "E6",
+          "template": "Received block \u2026 src: \u2026 dest: \u2026 of size"
+        }
+      ],
+      "dominant_type": 0,
+      "dominant_type_share": 0.964873765093304,
+      "n_types": 8
+    },
+    {
+      "cluster": 7,
+      "size": 740,
+      "share": 0.04394821237676684,
+      "top_events": [
+        {
+          "event": "E27",
+          "template": "BLOCK* NameSystem \u2026 addStoredBlock: Redundant addStore\u2026"
+        },
+        {
+          "event": "E9",
+          "template": "Received block \u2026 of size \u2026 from"
+        },
+        {
+          "event": "E11",
+          "template": "PacketResponder \u2026 for block \u2026 terminating"
+        }
+      ],
+      "dominant_type": 1,
+      "dominant_type_share": 0.9986486486486487,
+      "n_types": 2
+    },
+    {
+      "cluster": 8,
+      "size": 511,
+      "share": 0.030348022330443047,
+      "top_events": [
+        {
+          "event": "E28",
+          "template": "BLOCK* NameSystem \u2026 addStoredBlock: addStoredBlock req\u2026"
+        },
+        {
+          "event": "E26",
+          "template": "BLOCK* NameSystem \u2026 addStoredBlock: blockMap updated: \u2026"
+        },
+        {
+          "event": "E9",
+          "template": "Received block \u2026 of size \u2026 from"
+        }
+      ],
+      "dominant_type": 4,
+      "dominant_type_share": 1.0,
+      "n_types": 1
+    },
+    {
+      "cluster": 0,
+      "size": 488,
+      "share": 0.028982064378192184,
+      "top_events": [
+        {
+          "event": "E13",
+          "template": "Receiving empty packet for block"
+        },
+        {
+          "event": "E9",
+          "template": "Received block \u2026 of size \u2026 from"
+        },
+        {
+          "event": "E11",
+          "template": "PacketResponder \u2026 for block \u2026 terminating"
+        }
+      ],
+      "dominant_type": 7,
+      "dominant_type_share": 0.9754098360655737,
+      "n_types": 4
+    }
+  ]
+}

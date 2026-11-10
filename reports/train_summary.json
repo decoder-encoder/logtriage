@@ -1,0 +1,16 @@
+{
+  "logreg": {
+    "cv_f1_mean": 0.979022794350081,
+    "cv_f1_std": 0.000806174235690047
+  },
+  "random_forest": {
+    "cv_f1_mean": 0.9979968341891446,
+    "cv_f1_std": 0.0004167389430898044,
+    "best_params": {
+      "n_estimators": 200,
+      "min_samples_leaf": 1,
+      "max_features": "log2",
+      "max_depth": null
+    }
+  }
+}
